@@ -1,0 +1,9 @@
+.component1-container {
+  display: flex;
+  position: relative;
+}
+.component1-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
