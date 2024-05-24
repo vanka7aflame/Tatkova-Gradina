@@ -88,7 +88,6 @@
   height: 615px;
   display: flex;
   align-items: center;
-  margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
 }
 .bg-text01 {
@@ -729,6 +728,10 @@
   .bg-image09 {
     align-self: center;
   }
+  .bg-image10 {
+    align-self: center;
+    margin-right: var(--dl-space-space-fiveunits);
+  }
 }
 @media(max-width: 991px) {
   .bg-hero {
@@ -913,6 +916,7 @@
   .bg-text21 {
     height: 57px;
     align-self: center;
+    margin-top: 0px;
     text-align: center;
     padding-bottom: 0px;
   }
@@ -1093,12 +1097,21 @@
     padding-top: 10px;
   }
   .bg-features {
-    height: 1091px;
-    margin-bottom: var(--dl-space-space-halfunit);
+    height: 981px;
+    margin-bottom: 0px;
+  }
+  .bg-heading-container {
+    height: 972px;
+    margin-bottom: 0px;
+  }
+  .bg-text21 {
+    height: 58px;
+    margin-top: 0px;
   }
   .bg-services {
-    height: 8231px;
-    padding-top: 20px;
+    height: 8319px;
+    margin-top: 0px;
+    padding-top: 0px;
   }
   .bg-service-card {
     width: 100%;
