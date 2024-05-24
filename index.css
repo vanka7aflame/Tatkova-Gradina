@@ -252,13 +252,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.bg-text22 {
+.bg-text24 {
   width: 229px;
   height: 33px;
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.bg-text23 {
+.bg-text25 {
   color: #000000;
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
@@ -312,13 +312,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.bg-text26 {
+.bg-text28 {
   width: 413px;
   height: 33px;
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.bg-text27 {
+.bg-text29 {
   color: rgb(0, 0, 0);
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
@@ -341,13 +341,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.bg-text28 {
+.bg-text30 {
   width: 345px;
   height: 33px;
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.bg-text29 {
+.bg-text31 {
   color: rgb(0, 0, 0);
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
@@ -400,13 +400,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.bg-text32 {
+.bg-text34 {
   width: 229px;
   height: 33px;
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.bg-text33 {
+.bg-text35 {
   color: rgb(0, 0, 0);
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
@@ -430,13 +430,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.bg-text36 {
+.bg-text38 {
   width: 315px;
   height: 33px;
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.bg-text37 {
+.bg-text39 {
   color: rgb(0, 0, 0);
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
@@ -489,13 +489,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.bg-text38 {
+.bg-text40 {
   width: 388px;
   height: 33px;
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.bg-text39 {
+.bg-text41 {
   color: rgb(0, 0, 0);
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
@@ -518,13 +518,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.bg-text40 {
+.bg-text42 {
   width: 388px;
   height: 33px;
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.bg-text41 {
+.bg-text43 {
   color: rgb(0, 0, 0);
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
@@ -577,13 +577,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.bg-text42 {
+.bg-text44 {
   width: 388px;
   height: 33px;
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.bg-text43 {
+.bg-text45 {
   color: rgb(0, 0, 0);
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
@@ -610,7 +610,7 @@
   margin-right: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.bg-text44 {
+.bg-text46 {
   align-self: center;
   margin-bottom: var(--dl-space-space-tripleunit);
 }
@@ -659,7 +659,7 @@
   border-right-width: 0px;
   border-bottom-width: 0px;
 }
-.bg-text45 {
+.bg-text47 {
   align-self: center;
   margin-top: var(--dl-space-space-fiveunits);
   margin-bottom: var(--dl-space-space-fiveunits);
@@ -812,7 +812,7 @@
   .bg-heading-container1 {
     align-items: center;
   }
-  .bg-text44 {
+  .bg-text46 {
     text-align: center;
   }
   .bg-secondary-text {
@@ -897,7 +897,7 @@
     padding-left: 0px;
     padding-right: 0px;
   }
-  .bg-text45 {
+  .bg-text47 {
     text-align: center;
   }
   .bg-locations-container {
