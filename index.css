@@ -827,8 +827,20 @@
   }
 }
 @media(max-width: 479px) {
+  .bg-hero {
+    flex-direction: column;
+    justify-content: center;
+  }
   .bg-hero-text-container {
     width: 100%;
+  }
+  .bg-image {
+    width: 452px;
+    height: 152px;
+  }
+  .bg-features {
+    height: 1101px;
+    margin-bottom: var(--dl-space-space-halfunit);
   }
   .bg-service-card {
     width: 100%;
