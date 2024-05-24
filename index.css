@@ -730,15 +730,120 @@
   height: 585px;
   object-fit: cover;
 }
+@media(max-width: 1200px) {
+  .bg-services {
+    height: 4312px;
+  }
+}
 @media(max-width: 991px) {
   .bg-hero {
     flex-direction: column-reverse;
   }
   .bg-hero-text-container {
     width: 80%;
+    align-self: center;
+    align-items: center;
     margin-left: 0px;
+    justify-content: center;
+  }
+  .bg-heading {
+    text-align: center;
+  }
+  .bg-text {
+    align-self: center;
+    text-align: center;
+  }
+  .bg-features {
+    height: 586px;
+  }
+  .bg-text21 {
+    height: 54px;
+  }
+  .bg-section-separator {
+    margin-bottom: 0px;
+  }
+  .bg-services {
+    height: 9818px;
+  }
+  .bg-service-card {
+    width: 991px;
+    margin-top: var(--dl-space-space-unit);
+  }
+  .bg-image01 {
+    width: 580px;
+    align-self: center;
+  }
+  .bg-service-card01 {
+    width: 991px;
+  }
+  .bg-service-card02 {
+    width: 991px;
+  }
+  .bg-image02 {
+    width: 580px;
+  }
+  .bg-service-card03 {
+    width: 991px;
+  }
+  .bg-service-card04 {
+    width: 991px;
+  }
+  .bg-image03 {
+    width: 580px;
+  }
+  .bg-service-card05 {
+    width: 991px;
+  }
+  .bg-service-card06 {
+    width: 991px;
+  }
+  .bg-image04 {
+    width: 580px;
+  }
+  .bg-service-card07 {
+    width: 991px;
+  }
+  .bg-service-card08 {
+    width: 991px;
+    padding-right: 0px;
+  }
+  .bg-image05 {
+    width: 580px;
+  }
+  .bg-service-card09 {
+    width: 991px;
+  }
+  .bg-service-card10 {
+    width: 991px;
+  }
+  .bg-image06 {
+    width: 580px;
+  }
+  .bg-service-card11 {
+    width: 991px;
+  }
+  .bg-service-card12 {
+    width: 991px;
+  }
+  .bg-image07 {
+    width: 580px;
+  }
+  .bg-service-card13 {
+    width: 991px;
+    height: 536px;
+  }
+  .bg-service-card14 {
+    width: 991px;
+    height: 249px;
+  }
+  .bg-image08 {
+    width: 580px;
+  }
+  .bg-service-card15 {
+    width: 991px;
   }
   .bg-about-us {
+    height: 845px;
     flex-direction: column;
   }
   .bg-heading-container1 {
@@ -746,11 +851,24 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-tripleunit);
   }
+  .bg-image09 {
+    align-self: center;
+  }
+  .bg-contact {
+    height: 619px;
+  }
+  .bg-content-container {
+    width: 577px;
+    padding-left: 84px;
+  }
   .bg-locations-container {
     flex-wrap: wrap;
   }
   .bg-location-1 {
     margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .bg-image10 {
+    margin-right: var(--dl-space-space-fourunits);
   }
 }
 @media(max-width: 767px) {
@@ -967,6 +1085,7 @@
   }
   .bg-service-card {
     width: 100%;
+    margin-left: 0px;
   }
   .bg-service-card01 {
     width: 100%;
