@@ -46,7 +46,9 @@
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
   align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
   padding-left: var(--dl-space-space-tripleunit);
+  margin-bottom: var(--dl-space-space-fiveunits);
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: row;
   padding-bottom: var(--dl-space-space-fiveunits);
@@ -81,13 +83,17 @@
   max-width: var(--dl-size-size-maxcontent);
   align-items: center;
   padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
 }
 .bg-heading-container {
   width: 1108px;
   height: 615px;
   display: flex;
   align-items: center;
+  margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
 }
 .bg-text01 {
@@ -215,6 +221,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  padding-top: 30px;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -223,6 +230,7 @@
   display: flex;
   min-height: 500px;
   align-items: center;
+  margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
   justify-content: center;
   background-color: #ffffff;
@@ -237,6 +245,7 @@
   display: flex;
   min-height: 500px;
   align-items: center;
+  margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
   justify-content: center;
   background-color: rgba(234, 234, 234, 0.25);
@@ -266,6 +275,7 @@
   display: flex;
   min-height: 500px;
   align-items: center;
+  margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
   justify-content: center;
   background-color: #ffffff;
@@ -280,6 +290,7 @@
   display: flex;
   min-height: 500px;
   align-items: center;
+  margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
   justify-content: center;
   background-color: rgba(234, 234, 234, 0.25);
@@ -309,6 +320,7 @@
   display: flex;
   min-height: 500px;
   align-items: center;
+  margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
   justify-content: center;
   background-color: #ffffff;
@@ -352,6 +364,7 @@
   display: flex;
   min-height: 500px;
   align-items: center;
+  margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
   justify-content: center;
   background-color: #ffffff;
@@ -395,6 +408,7 @@
   display: flex;
   min-height: 500px;
   align-items: center;
+  margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
   justify-content: center;
   background-color: #ffffff;
@@ -439,6 +453,7 @@
   display: flex;
   min-height: 500px;
   align-items: center;
+  margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
   justify-content: center;
   background-color: #ffffff;
@@ -482,6 +497,7 @@
   display: flex;
   min-height: 500px;
   align-items: center;
+  margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
   justify-content: center;
   background-color: #ffffff;
@@ -525,6 +541,7 @@
   display: flex;
   min-height: 500px;
   align-items: center;
+  margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
   justify-content: center;
   background-color: #ffffff;
@@ -569,9 +586,13 @@
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
   align-items: flex-start;
+  padding-top: 46px;
   border-color: #ffffff;
   border-width: 1px;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
   flex-direction: row;
+  padding-bottom: 22px;
   justify-content: center;
 }
 .bg-heading-container1 {
@@ -609,7 +630,10 @@
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
   align-items: flex-start;
+  padding-top: 49px;
+  padding-left: var(--dl-space-space-tripleunit);
   flex-direction: row;
+  padding-bottom: 38px;
   justify-content: space-between;
   background-color: rgba(235, 235, 235, 0.25);
 }
@@ -715,6 +739,7 @@
   width: 383px;
   height: 585px;
   object-fit: cover;
+  margin-right: 100px;
 }
 @media(max-width: 1600px) {
   .bg-about-us {
@@ -838,7 +863,6 @@
   }
   .bg-service-card13 {
     width: 991px;
-    height: 536px;
   }
   .bg-service-card14 {
     width: 991px;
@@ -1076,7 +1100,10 @@
     margin-right: 0px;
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 430px) {
+  .bg-container {
+    align-items: center;
+  }
   .bg-hero {
     height: 302px;
     padding-top: var(--dl-space-space-doubleunit);
